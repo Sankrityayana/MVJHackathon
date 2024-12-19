@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hurricane</title>
+    <title>Wildfire</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -14,12 +14,12 @@
         }
 
         h1 {
-            color: #005f73; /* Teal for the main heading */
+            color: #d9534f; /* Fire red for the main heading */
             font-weight: bold;
         }
 
         h3, h4 {
-            color: #0a9396; /* Softer teal for section headings */
+            color: #c9302c; /* Deep red for section headings */
             margin-top: 20px;
         }
 
@@ -31,7 +31,7 @@
         }
 
         .preparation-section {
-            background-color: #e0f7fa; /* Light teal background */
+            background-color: #ffe6e6; /* Light red background */
         }
 
         .emergency-section {
@@ -60,32 +60,32 @@
 
     <!-- Main Content -->
     <div class="container my-5">
-        <h1>Hurricane</h1>
+        <h1>Wildfire</h1>
         <p>
-            Hurricanes are powerful storms that can cause widespread damage through high winds, heavy rainfall, and flooding. Preparing your home and having an emergency plan can significantly improve safety and resilience.
+            Wildfires are fast-moving, destructive events that can devastate communities and ecosystems. Preparing your home and having an evacuation plan can save lives and property.
         </p>
 
         <!-- Preparation Guide Section -->
         <div class="section preparation-section">
             <h3>Preparation Guide</h3>
 
-            <h4>Home Fortifications:</h4>
+            <h4>Home Defenses:</h4>
             <ul>
-                <li>Install storm shutters or plywood over windows to prevent shattering.</li>
-                <li>Reinforce roofs, doors, and garage doors against strong winds.</li>
-                <li>Trim trees and remove outdoor furniture to minimize flying debris.</li>
+                <li>Create a 30-foot defensible space by clearing dry vegetation.</li>
+                <li>Use fire-resistant materials for roofs and walls.</li>
+                <li>Install outdoor water hoses for firefighting efforts.</li>
             </ul>
 
-            <h4>Utilities and Resources:</h4>
+            <h4>Evacuation Plan:</h4>
             <ul>
-                <li>Fill bathtubs with water for washing and flushing.</li>
-                <li>Stock up on fuel for generators or vehicles.</li>
+                <li>Identify fire-safe zones and practice evacuation routes.</li>
+                <li>Keep an emergency go-bag ready near the door.</li>
             </ul>
 
-            <h4>Evacuation Readiness:</h4>
+            <h4>Stay Alert:</h4>
             <ul>
-                <li>Know the nearest shelters and evacuation routes.</li>
-                <li>Keep your vehicle fueled and ready to go.</li>
+                <li>Monitor fire updates via radio or mobile apps.</li>
+                <li>Be ready to evacuate as soon as an order is issued.</li>
             </ul>
         </div>
 
@@ -93,27 +93,27 @@
         <div class="section emergency-section">
             <h3>Emergency Kit Checklist</h3>
 
-            <h4>Repair Supplies:</h4>
+            <h4>Smoke Protection:</h4>
             <ul>
-                <li>Tarps, duct tape, and basic tools for temporary fixes.</li>
+                <li>N95 masks to filter smoke and particulates.</li>
+                <li>Goggles to protect eyes from ash and debris.</li>
             </ul>
 
-            <h4>Communication:</h4>
+            <h4>Fire Safety:</h4>
             <ul>
-                <li>Battery-powered radio for receiving weather updates.</li>
-                <li>Fully charged power banks or solar chargers.</li>
+                <li>Fire extinguishers for small blazes.</li>
+                <li>Fire-resistant blankets for personal protection.</li>
             </ul>
 
-            <h4>Provisions:</h4>
+            <h4>Navigation:</h4>
             <ul>
-                <li>Three days of non-perishable food and bottled water.</li>
-                <li>Manual can opener.</li>
+                <li>Map of fire-safe zones and alternate routes.</li>
             </ul>
 
-            <h4>Clothing and Shelter:</h4>
+            <h4>Hygiene and Comfort:</h4>
             <ul>
-                <li>Lightweight rain gear and waterproof boots.</li>
-                <li>Emergency blankets and sleeping bags.</li>
+                <li>Wet towels or bandanas for covering the nose and mouth.</li>
+                <li>Change of clothes in case of prolonged exposure to smoke.</li>
             </ul>
         </div>
     </div>

@@ -189,6 +189,7 @@
     </style>
 </head>
 <body>
+    <?php include "./components/header.php" ?>
     <header>
         Emergency Response
     </header>
@@ -277,7 +278,7 @@
             </div>
         </div>
     </div>
-
+    <?php include "./components/footer.php" ?>
     <script>
         function showSteps(disaster) {
             const steps = document.querySelectorAll('.disaster-steps');

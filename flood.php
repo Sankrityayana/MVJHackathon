@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hurricane</title>
+    <title>Flood</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -14,12 +14,12 @@
         }
 
         h1 {
-            color: #005f73; /* Teal for the main heading */
+            color: #004d80; /* Blue color for the main heading */
             font-weight: bold;
         }
 
         h3, h4 {
-            color: #0a9396; /* Softer teal for section headings */
+            color: #003366; /* Darker blue for section headings */
             margin-top: 20px;
         }
 
@@ -31,7 +31,7 @@
         }
 
         .preparation-section {
-            background-color: #e0f7fa; /* Light teal background */
+            background-color: #e8f4fc; /* Light blue background */
         }
 
         .emergency-section {
@@ -60,32 +60,32 @@
 
     <!-- Main Content -->
     <div class="container my-5">
-        <h1>Hurricane</h1>
+        <h1>Flood</h1>
         <p>
-            Hurricanes are powerful storms that can cause widespread damage through high winds, heavy rainfall, and flooding. Preparing your home and having an emergency plan can significantly improve safety and resilience.
+            Floods are one of the most common and destructive natural disasters, causing widespread damage to property and threatening lives. Proper preparation can mitigate risks and enhance safety.
         </p>
 
         <!-- Preparation Guide Section -->
         <div class="section preparation-section">
             <h3>Preparation Guide</h3>
 
-            <h4>Home Fortifications:</h4>
+            <h4>Home Preparation:</h4>
             <ul>
-                <li>Install storm shutters or plywood over windows to prevent shattering.</li>
-                <li>Reinforce roofs, doors, and garage doors against strong winds.</li>
-                <li>Trim trees and remove outdoor furniture to minimize flying debris.</li>
+                <li>Elevate utilities and appliances to prevent water damage.</li>
+                <li>Use water-resistant sealant on basement walls to prevent seepage.</li>
+                <li>Keep sandbags or flood barriers in accessible locations.</li>
             </ul>
 
-            <h4>Utilities and Resources:</h4>
+            <h4>Know Your Risks:</h4>
             <ul>
-                <li>Fill bathtubs with water for washing and flushing.</li>
-                <li>Stock up on fuel for generators or vehicles.</li>
+                <li>Identify if your home is in a floodplain and know evacuation routes.</li>
+                <li>Subscribe to flood alerts and warnings in your area.</li>
             </ul>
 
-            <h4>Evacuation Readiness:</h4>
+            <h4>Before Evacuation:</h4>
             <ul>
-                <li>Know the nearest shelters and evacuation routes.</li>
-                <li>Keep your vehicle fueled and ready to go.</li>
+                <li>Turn off electricity at the breaker box to prevent electrical hazards.</li>
+                <li>Move important items and documents to higher ground.</li>
             </ul>
         </div>
 
@@ -93,33 +93,38 @@
         <div class="section emergency-section">
             <h3>Emergency Kit Checklist</h3>
 
-            <h4>Repair Supplies:</h4>
+            <h4>Waterproof Essentials:</h4>
             <ul>
-                <li>Tarps, duct tape, and basic tools for temporary fixes.</li>
+                <li>Waterproof bags or cases for storing documents, electronics, and maps.</li>
+                <li>Water purification tablets or portable filtration systems.</li>
             </ul>
 
-            <h4>Communication:</h4>
+            <h4>Clothing and Gear:</h4>
             <ul>
-                <li>Battery-powered radio for receiving weather updates.</li>
-                <li>Fully charged power banks or solar chargers.</li>
+                <li>Rubber boots, raincoats, and gloves for navigating flooded areas.</li>
             </ul>
 
-            <h4>Provisions:</h4>
+            <h4>Lighting and Power:</h4>
             <ul>
-                <li>Three days of non-perishable food and bottled water.</li>
-                <li>Manual can opener.</li>
+                <li>Flashlight and portable solar charger for devices.</li>
             </ul>
 
-            <h4>Clothing and Shelter:</h4>
+            <h4>Hygiene:</h4>
             <ul>
-                <li>Lightweight rain gear and waterproof boots.</li>
-                <li>Emergency blankets and sleeping bags.</li>
+                <li>Wet wipes and hand sanitizer.</li>
+                <li>Trash bags for sanitation needs.</li>
+            </ul>
+
+            <h4>Survival Supplies:</h4>
+            <ul>
+                <li>Emergency blankets to keep warm.</li>
+                <li>Multi-purpose tools for cutting or prying during rescue efforts.</li>
             </ul>
         </div>
     </div>
 
     <!-- Footer -->
-    <?php include "./components/footer.php" ?>
+    <?php include "./components/footer.php"?>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

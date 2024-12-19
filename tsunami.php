@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hurricane</title>
+    <title>Tsunami</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -14,12 +14,12 @@
         }
 
         h1 {
-            color: #005f73; /* Teal for the main heading */
+            color: #004d99; /* Deep blue for the main heading */
             font-weight: bold;
         }
 
         h3, h4 {
-            color: #0a9396; /* Softer teal for section headings */
+            color: #0066cc; /* Ocean blue for section headings */
             margin-top: 20px;
         }
 
@@ -31,7 +31,7 @@
         }
 
         .preparation-section {
-            background-color: #e0f7fa; /* Light teal background */
+            background-color: #e6f2ff; /* Light blue background */
         }
 
         .emergency-section {
@@ -56,36 +56,34 @@
 
 <body>
     <!-- Header -->
-    <?php include "./components/header.php" ?>
+    <?php include "./components/header.php"?>
 
     <!-- Main Content -->
     <div class="container my-5">
-        <h1>Hurricane</h1>
+        <h1>Tsunami</h1>
         <p>
-            Hurricanes are powerful storms that can cause widespread damage through high winds, heavy rainfall, and flooding. Preparing your home and having an emergency plan can significantly improve safety and resilience.
+            Tsunamis are massive sea waves triggered by underwater earthquakes, volcanic eruptions, or landslides. These waves can cause catastrophic damage to coastal areas. Understanding risks and preparing effectively is crucial for survival.
         </p>
 
         <!-- Preparation Guide Section -->
         <div class="section preparation-section">
             <h3>Preparation Guide</h3>
 
-            <h4>Home Fortifications:</h4>
+            <h4>Risk Awareness:</h4>
             <ul>
-                <li>Install storm shutters or plywood over windows to prevent shattering.</li>
-                <li>Reinforce roofs, doors, and garage doors against strong winds.</li>
-                <li>Trim trees and remove outdoor furniture to minimize flying debris.</li>
+                <li>Know if you live in a tsunami hazard zone and the nearest high ground.</li>
+                <li>Be aware of natural signs like a sudden retreat of the sea or loud roaring sounds.</li>
             </ul>
 
-            <h4>Utilities and Resources:</h4>
+            <h4>Evacuation Practice:</h4>
             <ul>
-                <li>Fill bathtubs with water for washing and flushing.</li>
-                <li>Stock up on fuel for generators or vehicles.</li>
+                <li>Plan and practice routes to higher ground, aiming for at least 100 feet elevation.</li>
+                <li>Stay informed with tsunami alerts via mobile apps or radios.</li>
             </ul>
 
-            <h4>Evacuation Readiness:</h4>
+            <h4>Stay Prepared:</h4>
             <ul>
-                <li>Know the nearest shelters and evacuation routes.</li>
-                <li>Keep your vehicle fueled and ready to go.</li>
+                <li>Never return to coastal areas until authorities give the all-clear.</li>
             </ul>
         </div>
 
@@ -93,33 +91,28 @@
         <div class="section emergency-section">
             <h3>Emergency Kit Checklist</h3>
 
-            <h4>Repair Supplies:</h4>
+            <h4>Life-Saving Gear:</h4>
             <ul>
-                <li>Tarps, duct tape, and basic tools for temporary fixes.</li>
+                <li>Life vests for all family members.</li>
+                <li>Signal flares and waterproof flashlight.</li>
             </ul>
 
-            <h4>Communication:</h4>
+            <h4>Water and Food:</h4>
             <ul>
-                <li>Battery-powered radio for receiving weather updates.</li>
-                <li>Fully charged power banks or solar chargers.</li>
+                <li>Portable desalination kits or water filters.</li>
+                <li>High-energy, easy-to-carry snacks.</li>
             </ul>
 
-            <h4>Provisions:</h4>
+            <h4>Protection:</h4>
             <ul>
-                <li>Three days of non-perishable food and bottled water.</li>
-                <li>Manual can opener.</li>
-            </ul>
-
-            <h4>Clothing and Shelter:</h4>
-            <ul>
-                <li>Lightweight rain gear and waterproof boots.</li>
-                <li>Emergency blankets and sleeping bags.</li>
+                <li>Sturdy waterproof bags for documents and electronics.</li>
+                <li>Durable shoes for walking on wet or unstable terrain.</li>
             </ul>
         </div>
     </div>
 
     <!-- Footer -->
-    <?php include "./components/footer.php" ?>
+    <?php include "./components/footer.php"?>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
