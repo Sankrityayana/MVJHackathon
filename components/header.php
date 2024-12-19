@@ -28,6 +28,15 @@
                         <a href="../about-us.php" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">About Us</a>
                     </li>
                     <li class="nav-item">
+                        <a href="../resource-and-training.php" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../emergency-response.php" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Emergency Response</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../emergency-contacts.php" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Emergency Contacts</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="../community.php" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Our Communities</a>
                     </li>
                     <li class="nav-item">
