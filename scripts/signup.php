@@ -19,5 +19,6 @@
             ":userpass"=>password_hash($userpass, PASSWORD_DEFAULT),
             ":usertype"=>$usertype,
         ]);
+        echo "<script>alert('Account Created Successfully')</script>";
     }
 ?>
