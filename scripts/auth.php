@@ -13,6 +13,11 @@
 
         //create account
         $insert = $conn->prepare("INSERT INTO TABLE users(username, useremail, userpass, usertype) VALUES (:username, :useremail, :userpass, :usertype)");
-        
+        $insert->execute([
+            ":username"=>$username,
+            ":useremail"=>$useremail,
+            ":userpass"=>password_hash($userpass, PASSWORD_DEFAULT),
+            ":usertype"=>
+        ]);
     }
 ?>
