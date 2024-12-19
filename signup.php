@@ -1,9 +1,35 @@
+<?php include "./" ?>
+<?php
+    if(isset($POST['submit'])){
+        //Get details from user
+        $username = $POST['username'];
+        $useremail = $POST['useremail'];
+        $userpass = $POST['userpass'];
+        $confpass = $POST['confirm-password'];
+        $userphone = $POST['userphone'];
+        $usertype = "user";
+
+        if($userpass == $confpass) {
+        $insert = $conn->prepare("INSERT INTO users(username, useremail, userpass, usertype, userphone) VALUES (:username, :useremail, :userpass, :usertype, :userphone)");
+        $insert->execute([
+            ":username"=>$username,
+            ":useremail"=>$useremail,
+            ":userpass"=>password_hash($userpass, PASSWORD_DEFAULT),
+            ":usertype"=>$usertype,
+            ":userphone"=>$userphone,
+        ]);
+        echo "<script>alert('Account Created Successfully')</script>";
+        } else {
+            echo "<script>alert('Password Doesnt Match')</script>";
+        }
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Lifeline Shield | SignUp</title>
     <style>
         /* Basic Reset */
         * {
@@ -13,7 +39,7 @@
         }
 
         /* Body Styling */
-        body {
+        .body {
             font-family: 'Arial', sans-serif;
             background: linear-gradient(135deg, #4b9fd1, #1e7bb8);
             display: flex;
@@ -110,36 +136,35 @@
     </style>
 </head>
 <body>
+    <?php include "../components/header.php" ?>
+    <div class="body">
     <div class="auth-container">
-        <form class="auth-form" action="#" method="POST">
+        <form class="auth-form" action="./signup.php" method="POST">
             <h2>Create an Account</h2>
 
             <label for="username">Username</label>
             <input type="text" id="username" name="username" placeholder="Enter your username" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label for="useremail">Email</label>
+            <input type="email" id="email" name="useremail" placeholder="Enter your email" required>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password" required
-                pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]{8,}$"
+            <label for="userpass">Password</label>
+            <input type="password" id="password" name="userpass" placeholder="Enter your password" required
                 title="Password must be at least 8 characters long and include one uppercase letter, one lowercase letter, one number, and one special character.">
 
             <label for="confirm-password">Confirm Password</label>
-            <input type="password" id="confirm-password" name="confirmPassword" placeholder="Confirm your password" required
-                pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]{8,}$"
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required
                 title="Passwords must match the criteria.">
 
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phoneNumber" placeholder="Enter your phone number" required
+            <label for="userphone">Phone Number</label>
+            <input type="tel" id="phone" name="userphone" placeholder="Enter your phone number" required
                 pattern="^\d{10}$" title="Phone number must be 10 digits.">
 
-            <div class="error-message" id="error-message">Passwords do not match!</div>
-
-            <button type="submit">Sign Up</button>
-
-            <p><a href="#">Back to Login</a></p>
+            <button type="submit" name="submit">Sign Up</button><br> <br>
+            <p><a href="../pages/login.php">Back to Login</a></p>
         </form>
     </div>
+    </div>
+    <?php include "../components/footer.php" ?>
 </body>
 </html>
