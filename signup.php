@@ -1,12 +1,12 @@
-<?php include "./" ?>
+<?php include "./config.php" ?>
 <?php
-    if(isset($POST['submit'])){
+    if(isset($_POST['submit'])){
         //Get details from user
-        $username = $POST['username'];
-        $useremail = $POST['useremail'];
-        $userpass = $POST['userpass'];
-        $confpass = $POST['confirm-password'];
-        $userphone = $POST['userphone'];
+        $username = $_POST['username'];
+        $useremail = $_POST['useremail'];
+        $userpass = $_POST['userpass'];
+        $confpass = $_POST['confirm-password'];
+        $userphone = $_POST['userphone'];
         $usertype = "user";
 
         if($userpass == $confpass) {
@@ -136,7 +136,7 @@
     </style>
 </head>
 <body>
-    <?php include "../components/header.php" ?>
+    <?php include "./components/header.php" ?>
     <div class="body">
     <div class="auth-container">
         <form class="auth-form" action="./signup.php" method="POST">
@@ -165,6 +165,6 @@
         </form>
     </div>
     </div>
-    <?php include "../components/footer.php" ?>
+    <?php include "./components/footer.php" ?>
 </body>
 </html>
