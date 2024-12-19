@@ -114,7 +114,7 @@
 <body>
   <header class="header">
     <h1>Disaster Preparedness Videos</h1>
-    <button class="register-btn" onclick="window.location.href='registration.html'">Register</button>
+    <button class="register-btn" onclick="window.location.href='../register.php'">Register</button>
   </header>
 
   <div class="container">
