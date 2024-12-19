@@ -140,11 +140,11 @@
 
     <!-- Scrolling Gallery -->
     <div class="gallery">
-      <img src="https://via.placeholder.com/300x180?text=Flood" alt="Flood">
-      <img src="https://via.placeholder.com/300x180?text=Earthquake" alt="Earthquake">
-      <img src="https://via.placeholder.com/300x180?text=Wildfire" alt="Wildfire">
-      <img src="https://via.placeholder.com/300x180?text=Hurricane" alt="Hurricane">
-      <img src="https://via.placeholder.com/300x180?text=Tsunami" alt="Tsunami">
+      <img src="./images/abt1.jpg" alt="Flood">
+      <img src="./images/abt2.jpg" alt="Earthquake">
+      <img src="./images/abt3.jpg" alt="Wildfire">
+      <img src="./images/abt4.jpg" alt="Hurricane">
+      <img src="./images/abt5.jpg" alt="Tsunami">
     </div>
 
     <!-- Overview Section -->
