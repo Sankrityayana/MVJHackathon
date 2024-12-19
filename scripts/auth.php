@@ -17,7 +17,7 @@
             ":username"=>$username,
             ":useremail"=>$useremail,
             ":userpass"=>password_hash($userpass, PASSWORD_DEFAULT),
-            ":usertype"=>
+            ":usertype"=>$usertype,
         ]);
     }
 ?>
