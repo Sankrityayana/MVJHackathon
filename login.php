@@ -1,11 +1,12 @@
 <?php include "./config.php" ?>
 <?php 
+    session_start();
     if(isset($_POST['submit'])) {
         $username = $_POST['username'];
         $useremail = $_POST['useremail'];
         $password = $_POST['password'];
 
-        $fetchall = $conn->query("SELECT * FROM users where username = '$username'");
+        $fetchall = $conn->prepare("SELECT * FROM users where useremail = '$useremail'");
         $fetchall->execute();
         $fetchdata = $fetchall->fetch(PDO::FETCH_ASSOC);
 
@@ -15,8 +16,7 @@
                 $_SESSION['username'] = $fetchdata['username'];
                 $_SESSION['usertype'] = $fetchdata['usertype'];
                 $_SESSION['userid'] = $fetchdata['uid'];
-                $_SESSION['useremail'] = $fetchdata['usermail'];
-                $_SESSION['userid'] = $fetchdata['userid'];
+                $_SESSION['useremail'] = $fetchdata['useremail'];
                 header("location: index.php");
             } else {
                 echo "<script>alert('Wrong Password')</script>";
@@ -181,7 +181,7 @@
                 <br> <br>
                 <button type="submit">Login</button>
             </form>
-            <label for="showSignUp" class="auth-form">Don't have an account? <a href="../pages/signup.html">Sign up</a></label>
+            <label for="showSignUp" class="auth-form">Don't have an account? <a href="./signup.php">Sign up</a></label>
             <input type="checkbox" id="showSignUp" style="display:none;">
         </div>
     </div>

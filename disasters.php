@@ -52,12 +52,12 @@
         <p>Select a disaster to learn more:</p>
         <div class="disaster-container">
             <!-- Buttons -->
-            <a href="earthquake.html" class="disaster-btn">Earthquake</a>
-            <a href="flood.html" class="disaster-btn">Flood</a>
-            <a href="hurricane.html" class="disaster-btn">Hurricane</a>
-            <a href="wildfire.html" class="disaster-btn">Wildfire</a>
-            <a href="tsunami.html" class="disaster-btn">Tsunami</a>
-            <a href="landslide.html" class="disaster-btn">landslide</a>
+            <a href="./earthquake.php" class="disaster-btn">Earthquake</a>
+            <a href="./flood.php" class="disaster-btn">Flood</a>
+            <a href="./hurricane.php" class="disaster-btn">Hurricane</a>
+            <a href="./wildfire.php" class="disaster-btn">Wildfire</a>
+            <a href="./tsunami.php" class="disaster-btn">Tsunami</a>
+            <a href="./landslide.php" class="disaster-btn">landslide</a>
         </div>
     </div>
 

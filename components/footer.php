@@ -21,8 +21,8 @@
                 <div class="col-md-6">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="../pages/disasters.html" class="text-white text-decoration-none" style="transition: all 0.3s; color: white;">Disasters</a></li>
-                        <li><a href="../pages/login.html" class="text-white text-decoration-none" style="transition: all 0.3s; color: white;">Login</a></li>
+                        <li><a href="../disasters.php" class="text-white text-decoration-none" style="transition: all 0.3s; color: white;">Disasters</a></li>
+                        <li><a href="../login.php" class="text-white text-decoration-none" style="transition: all 0.3s; color: white;">Login</a></li>
                         <li><a href="../pages/community.html" class="text-white text-decoration-none" style="transition: all 0.3s; color: white;">Our Communities</a></li>
                         <li><a href="../pages/funds.html" class="text-white text-decoration-none" style="transition: all 0.3s; color: white;">Funds</a></li>
                     </ul>

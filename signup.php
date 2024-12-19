@@ -161,7 +161,7 @@
                 pattern="^\d{10}$" title="Phone number must be 10 digits.">
 
             <button type="submit" name="submit">Sign Up</button><br> <br>
-            <p><a href="../pages/login.php">Back to Login</a></p>
+            <p><a href="./login.php">Back to Login</a></p>
         </form>
     </div>
     </div>

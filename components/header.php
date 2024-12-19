@@ -22,19 +22,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="../pages/disasters.html" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Disasters</a>
+                        <a href="../disasters.php" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Disasters</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../pages/about-us.html" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">About Us</a>
+                        <a href="../about-us.php" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../communities.html" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Our Communities</a>
+                        <a href="../community.php" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Our Communities</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../pages/funds.html" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Funds</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="../pages/login.html" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Login</a>
+                        <a href="../login.php" class="nav-link text-white" style="padding: 15px 20px; border-radius: 10px; transition: all 0.3s;">Login</a>
                     </li>
                 </ul>
             </div>
