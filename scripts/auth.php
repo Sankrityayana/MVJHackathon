@@ -9,8 +9,10 @@
         $useremail = $POST['username'];
         $username = $POST['username'];
         $userpass = $POST['userpass'];
+        $usertype = "user";
 
         //create account
-        $insert = $conn->prepare("INSERT INTO TABLE")
+        $insert = $conn->prepare("INSERT INTO TABLE users(username, useremail, userpass, usertype) VALUES (:username, :useremail, :userpass, :usertype)");
+        
     }
 ?>
